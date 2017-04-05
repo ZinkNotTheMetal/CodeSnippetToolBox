@@ -48,6 +48,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GetAllTablesWithoutIdentityColumn.sql" />
+    <Content Include="GetAllTablesWithRowCount.sql" />
+    <Content Include="GetLastBackupDateForAllDatabases.sql" />
+    <Content Include="Indexes.sql" />
+    <Content Include="ListOfDatabases.sql" />
+    <Content Include="ListOfDependenciesWithinStoredProcedure.sql" />
+    <Content Include="ListOfStoredProceduresRelatedToTable.sql" />
     <Content Include="SlowestSqlStatementPerformance.sql" />
     <Content Include="SlowestStoredProcedurePerformance.sql" />
   </ItemGroup>
